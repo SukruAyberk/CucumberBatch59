@@ -7,9 +7,12 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import pages.HeroPage;
 import utilities.Driver;
 
+import java.time.Duration;
+
 public class HerokuappStepDefinitions {
 
     HeroPage hero = new HeroPage();
+
 
     @Then("kullanici addElement butonuna basar")
     public void kullanici_add_element_butonuna_basar() {
@@ -18,7 +21,7 @@ public class HerokuappStepDefinitions {
 
     @Then("kullanici delete butonunu gorunceye kadar bekler")
     public void kullanici_delete_butonunu_gorunceye_kadar_bekler() {
-        WebDriverWait wait = (WebDriverWait) Driver.getDriver();
+        WebDriverWait wait = new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(15));
         wait.until(ExpectedConditions.visibilityOf(hero.deleteButonu));
     }
 
@@ -34,7 +37,7 @@ public class HerokuappStepDefinitions {
 
     @Then("delete butonunun gorunmedigini test et")
     public void delete_butonunun_gorunmedigini_test_et() {
-
+        Assert.assertFalse(hero.deleteButonu.isDisplayed());
     }
 
 
