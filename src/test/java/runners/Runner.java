@@ -8,8 +8,8 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = "stepDefinitions",
-        tags = "@negative",
-        dryRun = false
+        tags = "@herokuapp",
+        dryRun = true
 )
 public class Runner {
     /*
