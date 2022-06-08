@@ -5,6 +5,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
+import java.util.List;
+
 public class HeroPage {
 
     public HeroPage() {
@@ -16,4 +18,7 @@ public class HeroPage {
 
     @FindBy(xpath = "//button[@onclick='deleteElement()']")
     public WebElement deleteButonu;
+
+    @FindBy(xpath = "//button[@onclick='deleteElement()']")
+    public List<WebElement> deleteElementsList;
 }

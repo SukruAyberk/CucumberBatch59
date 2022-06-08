@@ -71,6 +71,13 @@ public class AmazonStepDefinitions {
         Assert.assertTrue(actualResult.contains(istenenKelime));
     }
 
+    @And("urlnin {string} oldugunu test eder")
+    public void urlninOldugunuTestEder(String sayfaUrl) {
+        String actualUrl = Driver.getDriver().getCurrentUrl();
+        String expectedUrl = ConfigReader.getProperty(sayfaUrl);
+        Assert.assertEquals(expectedUrl, actualUrl);
+    }
+
 
     @Given("kullanici {string} anasayfasinda") //amazonUrl
     public void kullaniciAnasayfasinda(String istenenUrl) {
@@ -92,4 +99,6 @@ public class AmazonStepDefinitions {
             e.printStackTrace();
         }
     }
+
+
 }
