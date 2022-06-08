@@ -11,6 +11,6 @@ Feature: genel tekrar
     And Login butonuna tiklar
     And popup yazisinin "validation failed" oldugunu test eder
     And popupi ok ile kapatir
-    And ilk sayfaya doner
+    Then ilk sayfaya doner
     And ilk sayfaya dondugunu test eder
     And sayfayi kapatir

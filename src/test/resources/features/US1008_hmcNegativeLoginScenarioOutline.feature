@@ -1,5 +1,6 @@
 Feature: US1008 kullanici hmc sayfasinda yanlis kullanici adi ve sifre ile giris yapamasin
 
+  @negative
   Scenario Outline: TC13 negative login test
 
     Given kullanici "HMCUrl" anasayfasinda
