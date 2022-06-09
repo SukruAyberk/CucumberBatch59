@@ -1,6 +1,6 @@
 Feature: US1004 Kullanici parametre ile configuration file'i kullabilmeli
 
-  @config
+  @config @sirali @pr1
   Scenario: TC07 configuration properties dosyasindan parametre kullanimi
     Given kullanici "youtubeUrl" anasayfasinda
     Then kullanici 2 sn bekler

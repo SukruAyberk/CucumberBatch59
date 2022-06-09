@@ -1,6 +1,6 @@
 Feature:US1011 web tablosundaki istenen sutunu yazdir
 
-  @guru
+  @guru @pr2
   Scenario: TC18 kullanici sutun basligi ile liste alabilmeli
 
     Given kullanici "guruUrl" anasayfasinda

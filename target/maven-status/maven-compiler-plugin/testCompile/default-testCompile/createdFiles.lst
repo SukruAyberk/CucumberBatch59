@@ -12,6 +12,7 @@ pages\HeroPage.class
 pages\HMCPage.class
 pages\WebUniversityPage.class
 stepDefinitions\Hooks.class
+runners\TestRunner2.class
 pages\DataTablesPage.class
 stepDefinitions\HerokuappStepDefinitions.class
 utilities\ConfigReader.class

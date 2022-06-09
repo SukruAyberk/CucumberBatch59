@@ -1,6 +1,6 @@
 Feature: US1010 genel tekrar
 
-  @herokuapp
+  @herokuapp @pr2
   Scenario: TC15 herokuapp delete butonu calismali
     Given kullanici "herokuappUrl" anasayfasinda
     Then kullanici addElement butonuna basar

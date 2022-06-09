@@ -1,7 +1,7 @@
 @tumu
-Feature: Amazon Search
+Feature:US1001 Amazon Search
 
-  @nutella, @ikisi
+  @nutella @ikisi @sirali @pr1
   Scenario: TC01 kullanici amazonda Nutella aratir
     Given kullanici amazon anasayfasinda
     Then kullanici Nutella icin arama yapar
