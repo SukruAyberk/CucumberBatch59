@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="59.741">
-    <testcase classname="US1005 dogru kullanici adi ve sifre ile giris yapabilmeli" name="TC08 positive login test" time="28.323">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="53.133">
+    <testcase classname="US1005 dogru kullanici adi ve sifre ile giris yapabilmeli" name="TC08 positive login test" time="24.998">
         <system-out>
             <![CDATA[Given kullanici "HMCUrl" anasayfasinda......................................passed
 Then Log in yazisina tiklar.................................................passed
@@ -12,7 +12,7 @@ And sayfayi kapatir.........................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="US1010 genel tekrar" name="TC15 herokuapp delete butonu calismali" time="25.84">
+    <testcase classname="US1010 genel tekrar" name="TC15 herokuapp delete butonu calismali" time="21.232">
         <system-out>
             <![CDATA[Given kullanici "herokuappUrl" anasayfasinda................................passed
 Then kullanici addElement butonuna basar....................................passed
@@ -24,7 +24,7 @@ And sayfayi kapatir.........................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="US1011 web tablosundaki istenen sutunu yazdir" name="TC18 kullanici sutun basligi ile liste alabilmeli" time="5.331">
+    <testcase classname="US1011 web tablosundaki istenen sutunu yazdir" name="TC18 kullanici sutun basligi ile liste alabilmeli" time="6.549">
         <system-out>
             <![CDATA[Given kullanici "guruUrl" anasayfasinda.....................................passed
 And "Prev Close (Rs)", sutunundaki tum degerleri yazdirir...................passed

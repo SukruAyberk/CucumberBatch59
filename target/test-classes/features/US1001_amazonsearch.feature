@@ -1,5 +1,5 @@
 @tumu
-Feature: Amazon Search
+Feature:US1001 Amazon Search
 
   @nutella @ikisi @sirali @pr1
   Scenario: TC01 kullanici amazonda Nutella aratir
