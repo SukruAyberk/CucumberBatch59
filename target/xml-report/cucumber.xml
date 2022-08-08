@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="40.093">
-    <testcase classname="US1001 Amazon Search" name="TC01 kullanici amazonda Nutella aratir" time="16.5">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="31.448">
+    <testcase classname="US1001 Amazon Search" name="TC01 kullanici amazonda Nutella aratir" time="10.035">
         <system-out>
             <![CDATA[Given kullanici amazon anasayfasinda........................................passed
 Then kullanici Nutella icin arama yapar.....................................passed
@@ -9,7 +9,7 @@ And sayfayi kapatir.........................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="US1003 kullanici parametre kullanarak arama yapabilmeli" name="TC06_ kullanici parametre ile amazonda arama yapabilmeli" time="13.073">
+    <testcase classname="US1003 kullanici parametre kullanarak arama yapabilmeli" name="TC06_ kullanici parametre ile amazonda arama yapabilmeli" time="10.667">
         <system-out>
             <![CDATA[Given kullanici amazon anasayfasinda........................................passed
 And kullanici "Java" icin arama yapar.......................................passed
@@ -18,7 +18,7 @@ Then sayfayi kapatir........................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="US1004 Kullanici parametre ile configuration file'i kullabilmeli" name="TC07 configuration properties dosyasindan parametre kullanimi" time="10.199">
+    <testcase classname="US1004 Kullanici parametre ile configuration file'i kullabilmeli" name="TC07 configuration properties dosyasindan parametre kullanimi" time="10.543">
         <system-out>
             <![CDATA[Given kullanici "youtubeUrl" anasayfasinda..................................passed
 Then kullanici 2 sn bekler..................................................passed
