@@ -108,6 +108,7 @@
                     <useFile>false</useFile>
                     <includes>
                         <include>**/runners/*TestRunner*.java</include>
+                        <include>**/runners/*TestRunner2*.java</include>
                     </includes>
                     <testFailureIgnore>true</testFailureIgnore>
                 </configuration>
